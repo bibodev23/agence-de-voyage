@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+body
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header
+{
+    height: 100vh;
+    background: url(/media/header.jpg) fixed center center/cover;
+    overflow: hidden;
+}
+header img
+{
+    height: 50px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgb(160, 3, 3);
+
+}
+
+header h1
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 400%;
+    /* color: rgb(6, 68, 21); */
+    height: 50vh;
+    padding-top: 100px;
+}
+.liste-destinations h2
+{
+    color: rgb(6, 68, 21);
+    font-family: 'Oswald', sans-serif;
+    margin: 40px auto;
+}
+
+.liste-destinations h2 span
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+.destination
+{
+    height: 400px;
+    box-shadow: 2px -3px 13px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;   
+}
+
+.destination:hover
+{
+    transform: scale(1.10);
+    transition: 1s ease-in-out;
+}
+
+.destination h3
+{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(6, 68, 21);
+    font-family: 'Oswald', sans-serif;
+}
+
+.destination span
+{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(240, 248, 255);
+}
+
+.destination2
+{
+    margin: 0 20px;
+}
+
+.pays
+{
+    display: flex;
+}
+
+.bouton-destination p
+{
+
+    border-radius: 10px;
+    zoom: 1.2;
+    background-color: rgb(206, 206, 206);
+    padding: 1%;
+    margin: 30px;
+    font-family: 'Oswald', sans-serif;
+    width: 100px;
+    height: 30px;
+
+    text-align: center;
+
+}
+
+.bouton-destination p:hover
+{
+    background-color: rgb(6, 68, 21);
+    color: aliceblue;
+}
+
+
+.animaux-voiture
+{
+    height: 100vh;
+    border-radius: 8px;
+}
+
+.animaux-giraffe, .animaux-jaguar
+{
+    height: 600px;
+    margin: 30px;
+}
